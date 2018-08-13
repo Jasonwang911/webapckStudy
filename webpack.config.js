@@ -11,7 +11,7 @@ module.exports = {
         rules: [
             {test: /\.js$/, use: 'babel-loader', exclude: /node_modules/},
             {test: /\.css$/, use: ['style-loader', 'css-loader']},
-            {text: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader']}
+            {test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader']}
         ]
     },
     plugins: [

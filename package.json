@@ -16,5 +16,6 @@
   },
   "scripts": {
     "dev": "webpack-dev-server"
-  }
+  },
+  "dependencies": {}
 }
